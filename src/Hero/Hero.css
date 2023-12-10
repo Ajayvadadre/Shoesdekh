@@ -1,0 +1,121 @@
+.main{
+    height: 668px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(66,66,66);
+    background: radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(9,7,7,1) 100%);
+}
+.main button{
+    color: white;
+    
+}
+
+.main-left{
+    /* border: 1px solid red;    */
+    margin-left: 1%;
+    height: 95%;
+    width: 50%;
+}
+
+.hero-left{
+    /* border: 3px solid rgb(47, 0, 255); */
+    position: relative;
+    height: 65%;
+    width: 650px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    background-color: #fff1d5;
+}
+.hero-left h1{
+    /* font-family: 'Chakra Petch', sans-serif;
+     */
+    font-family: 'Anek Latin', sans-serif;
+    text-transform: capitalize;
+    color: rgb(40, 41, 40);
+    font-size: 65px;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 80px;
+
+}
+.hero-left p{
+    position: relative;
+    text-align: start;
+    font-size: small;
+    color: rgb(61, 61, 61);
+    margin-left: 73px;
+    margin-top: 15px;
+
+}
+
+.left-bottom{
+    margin-left: 80px;
+    height: 200px;
+    width: 85%;
+    /* border: 2px solid red; */
+    display: flex;
+   
+}
+.left-bottom .hero-left2{
+
+    border-radius: 20px;
+    width: 650px;
+    height: 120px;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+ 
+}
+.left-bottom .hero-left2 img{
+    height: 200px;
+    width: 100%;
+    object-position: 0px 0px 30px;
+    object-fit: cover;
+    position: absolute;
+    top: -70px;
+    
+    
+}
+         
+.left-bottom button {
+    position: relative;
+    margin: 10px;
+    font-size: small;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);            
+    border-radius: 20px;
+    display: inline;
+    width: 280px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left:6%;
+    background-color: #fff1d5;
+  }
+ .left-bottom button img{
+    margin-left: 25%;
+    height: 100px;
+    
+  }
+  
+.hero-right{
+    position: relative;
+    /* border: 5px solid rgb(4, 0, 255); */
+    margin: 2% 5% 0 0;
+    height: 85% !important;
+    width: 32% !important;
+}
+.hero-right img{
+    position: absolute;
+    /* margin: 28px 70px 0 0 ; */
+    height: 100% ;
+    width: 100%;
+    border-radius: 10px;
+    /* border: 3px solid rgb(255, 0, 38); */
+}

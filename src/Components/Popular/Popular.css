@@ -1,0 +1,8 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.popular-items{
+    display: flex;
+}

@@ -1,0 +1,9 @@
+.newarrivals{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    margin-top: 50px;
+}
+.collection{
+    display: flex;
+}

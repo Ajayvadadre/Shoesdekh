@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'logofont'; 
+    src: url('/inspiration/NeueKonstantGrotesk-Book.otf') format('opentype'),
+  }
+
+*{
+
+    font-family: 'Anek Latin', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 1px 3px -2px black;
+    background: #fff1d5
+    /* background: linear-gradient(180deg, rgba(69,66,66,1) 0%, rgb(79, 73, 73) 50%, 
+    rgba(110,100,100,1) 100%); */
+    
+}
+.navbar ul{
+    gap: 20px;
+    padding: 2px;
+    font-size: 22px;
+    margin-right: 0px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.logo-main h1{
+    font-family: 'logofont',sans-serif  ;
+    font-weight: bold;
+    font-size:larger;
+    margin-top: 55px;
+
+}
+.logo-main{  
+    /* display: flex; */
+    margin-left: 40px;
+    
+}
+.logo img{
+    position: absolute;
+     height:45px;
+     width:70px;
+    
+}
+.logo{
+    margin-left: 10px;
+    width: 150px;
+}
+
+.login-cart{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.login-cart .cart{
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+}
+.loginbutton{
+    /* border: 2px black solid; */
+    width: 90px;
+    height: 40px;
+    
+}       
+         
+.loginbutton {
+    background-image: linear-gradient(to right, #000000 0%, #121212  51%, #000000  100%);
+    margin: 10px;
+    font-size: small;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+  }
+
+  .loginbutton:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;  
+  }
+ 

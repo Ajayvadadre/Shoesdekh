@@ -1,0 +1,51 @@
+
+.offer p{
+    color: #ffffff;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 20px;
+}
+.offer h1{
+    color: #fff1d5;
+    font-size:35px;
+    font-weight: bolder;
+    line-height:normal;
+    padding-bottom: 5px;
+   
+}
+
+.offer img{
+    position: relative;
+    margin-left: 33%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.writing{
+    padding-left: 00px;
+    /* padding-bottom: 10px; */
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+.writing small{
+    font-weight: 400;
+}
+.btn2{
+    display: inline-block;
+    background: #fff1d5;
+    margin: 20px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-transform:capitalize;
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2:hover{
+    background: #ffffff;
+}
+.offer_product{
+    /* border: 2px solid red; */
+    background: radial-gradient(#2c2c2c,#000000);
+}
