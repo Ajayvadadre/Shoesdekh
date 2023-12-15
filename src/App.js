@@ -5,6 +5,7 @@ import Shop from './Pages/Shop';
 import Categories from './Pages/Categories';
 import Cart from './Pages/Cart';
 import Login from './Pages/Login';
+import Fotter from './Components/Footer/Fotter';
 
 
 
@@ -15,7 +16,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>} />
-        <Route path='/Men' element={<Categories category='Men'/>} />
+        <Route path='/Men' element={<Categories category='men'/>} />
         <Route path='/Women' element={<Categories category='Women'/>} />
         <Route path='/Kids' element={<Categories category='Kids'/>} />
         <Route path='/Accessories' element={<Categories category='Accessories'/>} />
@@ -23,7 +24,7 @@ function App() {
         <Route path='/Login' element={<Login/>} />
       </Routes>
       </BrowserRouter>
-  
+      <Fotter/>
     </div>
   );
 }

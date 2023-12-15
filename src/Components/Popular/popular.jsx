@@ -11,7 +11,7 @@ const popular = () => {
      { data_products.map((item,i)=>{
           return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.new_price}/>
       })}
-    </div>
+    </div>  
     </div>
   )
 }

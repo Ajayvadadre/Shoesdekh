@@ -1,0 +1,39 @@
+.newsletter{
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    width: 500px;
+    height: 160px;
+    color: white;   
+    margin-right: 30px;
+}
+.newsletter h1{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.newsletter input{
+    width: 350px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 5px;
+    color: black;
+}
+.newsletter input::placeholder{
+    font-weight:500;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.newsletter button{
+    border:1px solid white;
+    margin-left: 5px;
+    padding: 12px;
+    transition: 0.3s
+
+}
+.newsletter button:hover{
+    background-color: white;
+    color:black
+}

@@ -10,10 +10,9 @@ const New_arrivals = () => {
             <h1  className=' absolute ' style={ { marginLeft:'20px',color:'black',fontWeight:'600', fontSize:'30px' }}>NEW ARRIVALS</h1>
         </div>
         <div className="collection">
-         { newArrival.map((item,i)=>{
-            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price}/>
-         })
-            }
+        { newArrival.map((item,i)=>{
+          return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price}/>
+      })}
         </div>
     </div>
   )

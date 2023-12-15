@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: #e7e6e3;
+    background: #ffffff;
     
 }
 
@@ -28,17 +28,22 @@
     color:rgb(0, 0, 0);
     font-weight: bold;
     font-size: large;
-    width: 50%;
+    margin-left: 3px;
+    width: 60%;
     text-transform: uppercase;
+    text-align: start;
     
 }
 .item-prices{
     color: rgb(12, 11, 11);
     display: flex;
     gap: 10px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: large;
     height: 50px; 
-    margin-left: 20px;  
+    margin-left: 0px;  
+    text-align: start;
+
 }
 .product-image:hover{
     transform: scale(1.02);

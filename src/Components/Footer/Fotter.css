@@ -1,0 +1,61 @@
+.main-fotter{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 50px;
+}
+.fotter{
+    padding-top: 30px;
+    margin: 0px 0 0px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fotter .info{
+    text-align: left;
+    line-height: 30px;
+    font-weight: 400;
+}
+.fotter .policies{
+    text-align: left;
+    line-height: 35px;
+    font-weight: 400;
+
+}
+.fotter .socials .img{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+
+    
+}
+.fotter .socials img{
+    margin-top: 20px;
+    /* margin-left: 8px; */
+    padding: 3px;
+    cursor: pointer;
+}
+.fotter .socials h1{
+    width: 10px;
+    margin-left: 60px;
+
+}
+.fotter li{
+    width: fit-content;
+}
+.fotter .info li{
+    width: fit-content;
+}
+.fotter li:hover{
+    text-decoration:underline;
+}
+.main-fotter .copyright{
+        margin: 40px 0 0 0;
+        width: 100%;
+}
+.main-fotter .copyright p{
+    margin-top: 10px;
+}
+.main-fotter .copyright hr{
+    border: none;
+    height: 0.5px;
+    background-color: rgba(79, 74, 74, 0.473);
+    width: 100%;
+}

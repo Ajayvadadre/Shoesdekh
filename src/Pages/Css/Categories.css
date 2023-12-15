@@ -1,0 +1,21 @@
+.product-sort{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+    background-color: white;
+}
+.sort-categories{
+    background-color: #ffffff;
+}   
+.Loadmore{
+    margin-bottom: 10px;
+}
+.Loadmore button{
+     margin: 150px 0 0 0;
+     width: 233px;
+     height: 69px;
+     border-radius: 75px;
+     background-color:antiquewhite;
+     font-size: 18px;
+     font-weight: 500;
+}
