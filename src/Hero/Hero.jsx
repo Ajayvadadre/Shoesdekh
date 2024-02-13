@@ -1,10 +1,12 @@
-import React from "react";
+import React, { createContext, useContext, useRef } from "react";
 import "./Hero.css";
 import header from "../Components/Assets/images/Header.jpeg";
 import arrow from "../Components/Assets/images/arrow.svg";
 import smallimg from "../Components/Assets/images/small-img.jpeg";
+import { useScrollToSection } from "../Components/Scroll/ScrollContext";
 
-const Hero = () => {
+const Hero = ({scrollToRef}) => {
+
   return (
     <>
       <div className="main">
@@ -28,7 +30,7 @@ const Hero = () => {
             <div className="hero-left2">
               <img src={smallimg} alt="" />
             </div>
-            <button type="button">
+            <button onClick={scrollToRef} id="exploreBtn" type="button">
               <img src={arrow} alt="" />
             </button>
           </div>

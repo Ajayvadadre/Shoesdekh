@@ -8,6 +8,8 @@ import p7 from '../Assets/images/new-arrivals/Air max 1 premium.webp';
 import p8 from '../Assets/images/new-arrivals/Air max 1.webp';
 import p9 from '../Assets/images/new-arrivals/Fenty x puma creeper.webp';
 
+
+//New arrivals data
 let newArrival=[
     {
         id:1,

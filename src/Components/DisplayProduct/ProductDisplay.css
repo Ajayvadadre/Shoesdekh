@@ -1,0 +1,107 @@
+.product-display-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    row-gap: 20px;
+    column-gap: 20px;
+    background-color: white;
+    /* border:1px solid rgb(102, 0, 255); */
+    
+}
+
+.product-display-left img{
+    height: 400px;
+    width: 400px;
+}
+.product-display-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: black;
+    /* border:1px solid red; */
+    width:30%;
+    margin-right: 20px;
+
+}
+.product-display-right button{
+    padding: 18px;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 2px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    overflow: visible;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .product-display-right button:focus {
+    text-decoration: none;
+  }
+  
+  .product-display-right button:hover {
+    text-decoration: none;
+  }
+  
+  .product-display-right button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .product-display-right button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+
+
+.product-display-right h1{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.product-display-right p{
+    font-weight: 400;
+    font-size: large;
+}
+.sizes{
+    align-items: start;
+    
+
+}
+.sizes .size-container{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    font-size: larger;
+    transition: 0.2s ease-in-out;
+}
+.sizes .size-container:hover{
+    background-color: black;
+    color: white;
+}
+.product-display-right .brand{
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000a9;
+}

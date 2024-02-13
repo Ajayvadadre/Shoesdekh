@@ -1,28 +1,11 @@
-let cart = ["shoes","pants","kurta"]
-let promise = createOrder(cart);
-console.log(promise)
-
-promise.then(function(orderId){
-    console.log(orderId)
-});
-
-function createOrder(cart){
-    const pr = new Promise((resolve,reject)=>{
-         if(!validateid){
-        const err = new Error('rejected')
-        reject(err)
-     }
-     const orderId = '11224'
-     if(orderId){
-        setTimeout(() => {
-            resolve(orderId);
-        }, 4000);
-     }
-    })
-    return pr;
-    
+function settingname(name){
+   let _name = name ;
+    return {
+        setName:(newname)=> (_name=newname),
+        getName:()=> _name,
+    };
 }
-
-function validateid(){
-    return true;
-}
+let x=settingname("ajay");
+console.log(x.getName());
+x.setName("santa");
+console.log(x.getName());

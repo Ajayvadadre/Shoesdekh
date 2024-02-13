@@ -2,35 +2,39 @@ import React from 'react'
 import '../Pages/Css/Categories.css';
 import Items from '../Components/Items/items';
 import men_products from '../Components/Data/AllProducts';
+import underConstruction from '../Components/Assets/images/under-construction2.jpg'
 
 const Categories = (props) => {
 
+  let categoryFound = false
+
   return (
   <>
-  <div className="category bg-white">
-    <div className="sort-categories">
-        <p>
-          <span>1-12</span> out of 36 <products></products>
-        </p>
-        <div className="dropdown-sort">
-          <img src="" alt="" />
-        </div>
-        {/* {console.log(All_products)}; */}
-        <div className="product-sort">
+  <div className={`category bg-white${ props.category!==men_products.category? ' empty-container' : ''}`}>
+
+  
+    <div className="sort-categories ">
+        <div className="product-sort ">
        {      
          men_products.map((item,i)=>{
           if(props.category===item.category){
+            categoryFound = true
             return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price}/>
           }
           else{
             return null
-          }
-          })}
-          
-  
+          }})}
+          <div className="underConstruct flex"> 
+          {props.category !== men_products.category && !categoryFound && (
+             <>
+             <img src={underConstruction} alt="To be made" className="under-construct" />
+            
+            </>
+          )} </div>
+             
         </div>
     </div>
-            <div className="Loadmore bg-white">
+            <div className="Loadmore ">
             <button>Explore more</button>
             </div>
   </div>

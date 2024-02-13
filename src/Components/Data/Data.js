@@ -1,5 +1,4 @@
-
-import p1 from '../Assets/images/Products/Air force 1 LV8.webp'
+import p1 from '../Assets/images/Products/img01.webp'
 import p2 from '../Assets/images/Products/Air force 1.webp'
 import p3 from '../Assets/images/Products/Air jordan 1.webp'
 import p4 from '../Assets/images/Products/Chuk 70 high.webp'

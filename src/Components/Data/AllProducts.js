@@ -1,4 +1,4 @@
-import p1 from '../Assets/images/Products/Air force 1 LV8.webp'
+import p1 from '../Assets/images/Products/img01.webp'
 import p2 from '../Assets/images/Products/Air force 1.webp'
 import p3 from '../Assets/images/Products/Air jordan 1.webp'
 import p4 from '../Assets/images/Products/Chuk 70 high.webp'
@@ -33,6 +33,7 @@ let men_products = [
         img: p1,
         price: "10,795",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 2,
@@ -40,6 +41,7 @@ let men_products = [
         img: p2,
         price: "7,495",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 3,
@@ -47,6 +49,7 @@ let men_products = [
         img: p3,
         price: "8,695",
         category: "men",
+        brand: "Jordan",
     },
     {
         id: 4,
@@ -54,6 +57,7 @@ let men_products = [
         img: p4,
         price: "6000",
         category: "men",
+        brand: "Converse",
     },
     {
         id: 5,
@@ -61,6 +65,7 @@ let men_products = [
         name: "Air Force 1 MID EVO",
         price: "20000",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 6,
@@ -68,6 +73,7 @@ let men_products = [
         name: "Air jordan 3 Fear",
         price: "19,295",
         category: "men",
+        brand: "Jordan",
     },
     {
         id: 7,
@@ -75,6 +81,7 @@ let men_products = [
         name: "Air penny 2",
         price: "19,295",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 8,
@@ -82,6 +89,7 @@ let men_products = [
         name: "Run star motion",
         price: "8,999",
         category: "men",
+        brand: "Converse",
     },
     {
         id: 9,
@@ -89,6 +97,7 @@ let men_products = [
         name: `WMN'S Air jordan`,
         price: "11,475",
         category: "men",
+        brand: "Jordan",
     },
     {
         id: 10,
@@ -96,6 +105,7 @@ let men_products = [
         name: "Air vapormax 2023",
         price: "5,675",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 11,
@@ -103,6 +113,7 @@ let men_products = [
         name: "Air max 1 premium",
         price: "15,590",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 12,
@@ -110,6 +121,7 @@ let men_products = [
         name: "Air max 1",
         price: "12,290",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 13,
@@ -117,6 +129,7 @@ let men_products = [
         name: "Fenty x puma creeper",
         price: "9,290",
         category: "men",
+        brand: "Puma",
     },
     {
         id: 14,
@@ -124,6 +137,7 @@ let men_products = [
         name: "Adimatic mid youth",
         price: "8,590",
         category: "men",
+        brand: "Adidas",
     },
     {
         id: 15,
@@ -131,6 +145,7 @@ let men_products = [
         name: "Air jordan retro 5",
         price: "12,675",
         category: "men",
+        brand: "Jordan",
     },
     {
         id: 16,
@@ -138,6 +153,7 @@ let men_products = [
         name: "BLKTOPRiderWashed",
         price: "7,325",
         category: "men",
+        brand: "Converse",
     },
     {
         id: 17,
@@ -145,6 +161,7 @@ let men_products = [
         name: "Blondey continental",
         price: "14,210",
         category: "men",
+        brand: "Adidas",
     },
     {
         id: 18,
@@ -152,6 +169,7 @@ let men_products = [
         name: "Campus 00s",
         price: "10,050",
         category: "men",
+        brand: "Adidas",
     },
     {
         id: 19,
@@ -159,6 +177,7 @@ let men_products = [
         name: "Cosmic unity",
         price: "6,250",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 20,
@@ -166,6 +185,7 @@ let men_products = [
         name: "Dunk Low retro",
         price: "11,340",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 21,
@@ -173,6 +193,7 @@ let men_products = [
         name: "Humanrace samba",
         price: "13,780",
         category: "men",
+        brand: "Adidas",
     },
     {
         id: 22,
@@ -180,6 +201,7 @@ let men_products = [
         name: "Kevin durant kd16",
         price: "8,975",
         category: "men",
+        brand: "Nike",
     },
     {
         id: 23,
@@ -187,6 +209,7 @@ let men_products = [
         name: "Rs-X Efekt",
         price: "6,490",
         category: "men",
+        brand: "Puma",
     },
     
 ];

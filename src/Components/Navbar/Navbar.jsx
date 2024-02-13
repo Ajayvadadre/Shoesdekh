@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
-  const [menus,setMenus]=useState("shop")
+  const [menu,setMenu]=useState("Shop")
   return (
     <>
       <div className="navbar ">
@@ -19,15 +19,16 @@ const Navbar = () => {
         </div>
 
         <ul className="flex  mr-2 ">
-          <li onClick={()=>{setMenus("Shop")}}> <Link to='/' >Shop</Link></li>
-          <li onClick={()=>{setMenus("Men")}}> <Link to='/Men' >Men</Link></li>
-          <li onClick={()=>{setMenus("Women")}}> <Link to='/Women' >Women</Link></li>
-          <li onClick={()=>{setMenus("Accessories")}}> <Link to='/Accessories'>Accessories</Link></li>
+          <li onClick={()=>{setMenu("Shop")}}> <Link to='/' >Shop{menu === 'Shop' ? <span className="line" /> : null}</Link></li>
+          <li onClick={()=>{setMenu("Men")}}> <Link to='/Men' >Men{menu === 'Men' ? <span className="line" /> : null}</Link></li>
+          <li onClick={()=>{setMenu("Women")}}> <Link to='/Women' >Women{menu === 'Women' ? <span className="line" /> : null}</Link></li>
+          <li onClick={()=>{setMenu("Accessories")}}> <Link to='/Accessories'>Accessories{menu === 'Accessories' ? <span className="line" /> : null}</Link></li>
         </ul>
 
         <div className="login-cart mr-16">
-        <Link  to='/Login'><button className="loginbutton">Login</button></Link> 
+        <Link  to='/Login'><button className=" button-50">Login</button></Link> 
           <Link to='/Cart'><img src={cart} className="cart"/></Link>
+          <div className="nav-cart-counter">0</div>
           
         </div>
 

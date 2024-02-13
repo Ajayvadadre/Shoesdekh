@@ -1,0 +1,9 @@
+.breadCrumbs img{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+
+.bread-crumb{
+    background-color: rgba(235, 232, 232, 0.31);
+}
