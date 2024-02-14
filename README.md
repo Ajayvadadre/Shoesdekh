@@ -1,6 +1,6 @@
 # Shoes Dekh
 
-![Shoes Dekh Logo](./263-3.svg)
+![Shoes Dekh Logo](./264-3.svg)
 
 ## About
 
