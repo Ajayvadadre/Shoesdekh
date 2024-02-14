@@ -1,0 +1,68 @@
+.related-products-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.related-product-lists {
+    display: flex;
+    width: auto;
+    
+}
+
+.scroll-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.scroll-buttons button {
+    font-size: 20px;
+    cursor: pointer;
+}
+.related-product-lists .item {
+    flex: 0 0 auto;
+    width: 400px;
+}
+.related-products h1{
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.related-products{
+    margin-top: 50px;
+}
+
+
+@media (max-width: 426px) {
+    .related-products-container {
+      overflow-x: auto;
+      border: 1px solid red;
+      white-space: nowrap;
+      padding: 10px;
+      display: block; /* Change from flex to block for stacking on small screens */
+    }
+  
+    .related-product-lists {
+      display: flex;
+      width: auto;
+      overflow-x: scroll; /* Add overflow-x for scrolling on small screens */
+      white-space: nowrap; /* Add white-space for nowrap on small screens */
+    }
+  
+    .related-product-lists .item {
+      border: 1px solid red;
+      flex: 0 0 auto;
+      width: 100%; /* Make each item take full width on small screens */
+      max-width: 500px; /* Limit the max-width for each item */
+      margin-right: 10px; /* Add some margin between items */
+    }
+  
+    .scrollbuttons {
+      display: none; /* Hide scroll buttons on small screens */
+    }
+  }
+  
