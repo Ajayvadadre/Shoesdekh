@@ -1,6 +1,6 @@
 # Shoes Dekh
 
-![Shoes Dekh Logo](path/to/your/logo.png)
+![Shoes Dekh Logo](./263-3.svg)
 
 ## About
 
