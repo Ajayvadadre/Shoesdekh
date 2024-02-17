@@ -1,0 +1,122 @@
+.cartItems{
+    display: block;
+    margin-top: 2%;
+}
+
+
+.top-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 20px 80px;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+
+.count-button{
+    border: 1px solid rgba(22, 22, 22, 0.537);
+    height: 55px;
+    width: 120px;
+    margin-left: 170px;
+}
+
+
+.bottom-part{
+    margin-top: 20px;
+    padding: 40px;
+
+}
+.bottom-cart-items{
+    grid-template-columns: 0.4fr 0.5fr 1fr 1fr;
+}
+
+.bottom-cart-items img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+}
+.cart-item-details{
+    color: #000000a9;   
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 200px;
+    margin-right: 100px;
+
+
+}
+.cart-item-details .product-details-name{
+    font-weight: 700;
+    color: black;
+
+
+}
+
+.grand-total{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.grand-total button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.grand-total button {
+    padding: 18px;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #000;
+    border: 1px solid #000;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    overflow: visible;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .grand-total{
+    margin-top: 20px;
+    padding-right: 70px;
+  }
+
+
+  .grand-total button:focus,
+  .grand-total button:hover {
+    text-decoration: none;
+  }
+  
+  .grand-total button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .grand-total button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  .grand-total-p{
+    
+    color: #000000b0;
+    font: 700;
+    font-size: larger;
+  }

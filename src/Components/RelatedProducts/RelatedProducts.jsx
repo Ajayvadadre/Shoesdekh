@@ -4,8 +4,10 @@ import Items from '../Items/items';
 import '../RelatedProducts/RelatedProducts.css';
 import {MdChevronLeft,MdChevronRight} from 'react-icons/md'
 
-const RelatedProducts = () => {
+const RelatedProducts = (isInsideCart) => {
     const { all_product } = useContext(ShopContext);
+
+
 
     const slideLeft = ()=>{
         let slider = document.getElementById('slider')

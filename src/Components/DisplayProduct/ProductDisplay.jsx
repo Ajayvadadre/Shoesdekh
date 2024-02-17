@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../DisplayProduct/ProductDisplay.css';
 import Dropdown from '../DropDown/Dropdown';
+import { ShopContext } from '../../Context/Context';
 
 
 const ProductDisplay = (props) => {
   const{product} = props
   const description1 = 'this is some description for the description button'
   const description2 = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis veniam excepturi obcaecati nihil, neque autem nesciunt cum inventore quas culpa."
-
+  const{addItem} = useContext(ShopContext)
   return (
     <div className='product-display bg-white flex justify-between mt-5'>
         <div className="product-display-left">
@@ -33,7 +34,7 @@ const ProductDisplay = (props) => {
             <div className='size-container'>8</div>
             </div>
           </div>
-          <button>Add to cart</button>
+          <button onClick={()=>{addItem(product.id)}}>Add to cart</button>
           <Dropdown Title={'Description'} description={description1}/>
           <Dropdown Title={'Product details'} description={description2}/>
 

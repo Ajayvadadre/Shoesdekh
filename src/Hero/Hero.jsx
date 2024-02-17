@@ -10,7 +10,6 @@ const Hero = ({scrollToRef}) => {
   return (
     <>
       <div className="main">
-        <h1 className="text-white">Hello vercel</h1>
         <div className="main-left">
           <div className="hero-left">
             <h1 className=" text-white text">
