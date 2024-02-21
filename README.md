@@ -16,7 +16,6 @@ Demo video link-https://youtu.be/e-PgheT3uN0
 ## Demo
 
 [Link to Live Demo](your-live-demo-url)
-Site Link - shoesdekh.vercel.app
 
 ## Getting Started
 
