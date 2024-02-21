@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import Hero from '../Hero/Hero'
 import Popular from '../Components/Popular/popular';
 import Offer from '../Components/Offer/Offer';
 import New_arrivals from '../Components/New_arrivals/New_arrivals';
+import Hero from '../Components/Hero/Hero';
 
 const Shop = () => {
 

@@ -1,9 +1,9 @@
 import React, { createContext, useContext, useRef } from "react";
-import "./Hero.css";
-import header from "../Components/Assets/images/Header.jpeg";
-import arrow from "../Components/Assets/images/arrow.svg";
-import smallimg from "../Components/Assets/images/small-img.jpeg";
-import { useScrollToSection } from "../Components/Scroll/ScrollContext";
+import "../Hero/Hero.css";
+import header from "../Assets/images/Header.jpeg";
+import arrow from "../Assets/images/arrow.svg";
+import smallimg from "../Assets/images/small-img.jpeg";
+
 
 const Hero = ({scrollToRef}) => {
 
