@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react';
 import all_product from '../Components/Data/AllProducts';
+import women_products from '../Components/Data/WomenProducts';
 
 const cartValue= ()=>{
 
@@ -37,7 +38,7 @@ const ShopContextProvider=(props)=>{
     const removeItem=(itemId)=>{
         setProductCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     }
-    const contextValue = {grandTotalAmount,all_product,productCartItems,addItem,removeItem};
+    const contextValue = {grandTotalAmount,all_product,productCartItems,women_products,addItem,removeItem};
 
     return(
         <ShopContext.Provider value={contextValue}>

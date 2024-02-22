@@ -6,7 +6,7 @@ import { ShopContext } from '../../Context/Context';
 
 const ProductDisplay = (props) => {
   const{product} = props
-  const description1 = 'this is some description for the description button'
+  const description1 = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis veniam excepturi obcaecati nihil, neque autem nesciunt cum inventore quas culpa '
   const description2 = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis veniam excepturi obcaecati nihil, neque autem nesciunt cum inventore quas culpa."
   const{addItem} = useContext(ShopContext)
   return (
@@ -37,9 +37,8 @@ const ProductDisplay = (props) => {
           <button onClick={()=>{addItem(product.id)}}>Add to cart</button>
           <Dropdown Title={'Description'} description={description1}/>
           <Dropdown Title={'Product details'} description={description2}/>
-
         </div>
-
+      
     </div>
   )
 }

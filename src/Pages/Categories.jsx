@@ -21,7 +21,7 @@ const Categories = (props) => {
          men_products.map((item,i)=>{
           if(props.category===item.category){
             categoryFound = true
-            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price}/>
+            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price} category={item.category}/>
           }
           else{
             return null
@@ -30,7 +30,7 @@ const Categories = (props) => {
          women_products.map((item,i)=>{
           if(props.category===item.category){
             categoryFound = true
-            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price}/>
+            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price} category={item.category}/>
           }
           else{
             return null
