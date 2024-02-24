@@ -12,9 +12,9 @@
     justify-content: space-between;
     padding: 10px;
     box-shadow: 0 1px 3px -2px black;
-    background: #fff1d5
-    /* background: linear-gradient(180deg, rgba(69,66,66,1) 0%, rgb(79, 73, 73) 50%, 
-    rgba(110,100,100,1) 100%); */
+    background: #fff1d5;
+    /* border:1px solid red; */
+    width: 100%;
     
 }
 .navbar ul{
@@ -33,7 +33,6 @@
 
 }
 .logo-main{  
-    /* display: flex; */
     margin-left: 40px;
     
 }
@@ -127,3 +126,93 @@
   transform: translate(2px, 2px);
 }
 
+
+
+@media(max-width:1024px){
+
+  .logo img{
+    position: absolute;
+     height:40px;
+     width:65px;
+    }
+
+    .logo-main h1{
+      margin-top: 50px;
+    }
+
+    .navbar ul{
+    font-size: 20px;
+    }
+
+    .button-50 {
+      width: 90px;
+      height: 38px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    
+    .login-cart .cart{
+      height: 26px;
+      width: 26px;
+      margin-top: 15px;
+    }
+
+    .nav-cart-counter{
+      width: 16px;
+      height: 16px;
+      margin-top: 6px;
+      margin-left: -20px;
+      font-size: 10px;
+   }
+
+
+}
+
+@media(max-width:426px){
+
+  .navbar{
+    width: 185%;
+    height:18% ;
+  }
+
+
+
+  .logo img{
+    position: absolute;
+     height:40px;
+     width:65px;
+    }
+
+    .logo-main h1{
+      margin-top: 50px;
+    }
+
+    .navbar ul{
+    font-size: 20px;
+    }
+
+    .button-50 {
+      width: 90px;
+      height: 38px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    
+    .login-cart .cart{
+      height: 26px;
+      width: 26px;
+      margin-top: 15px;
+    }
+
+    .nav-cart-counter{
+      width: 16px;
+      height: 16px;
+      margin-top: 6px;
+      margin-left: -20px;
+      font-size: 10px;
+   }
+
+
+   
+
+}

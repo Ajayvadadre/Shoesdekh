@@ -31,7 +31,6 @@ const Navbar = () => {
         <Link  to='/Login'><button className=" button-50">Login</button></Link> 
           <Link to='/Cart'><img src={cart} className="cart"/></Link>
           <div className="nav-cart-counter">{itemcounter()}</div>
-          
         </div>
 
       </div>

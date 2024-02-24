@@ -7,19 +7,16 @@
     background: radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(9,7,7,1) 100%);
 }
 .main button{
-    color: white;
-    
+    color: white;  
 }
 
 .main-left{
-    /* border: 1px solid red;    */
     margin-left: 1%;
     height: 95%;
     width: 50%;
 }
 
 .hero-left{
-    /* border: 3px solid rgb(47, 0, 255); */
     position: relative;
     height: 65%;
     width: 650px;
@@ -29,8 +26,6 @@
     background-color: #fff1d5;
 }
 .hero-left h1{
-    /* font-family: 'Chakra Petch', sans-serif;
-     */
     font-family: 'Anek Latin', sans-serif;
     text-transform: capitalize;
     color: rgb(40, 41, 40);
@@ -113,9 +108,98 @@
 }
 .hero-right img{
     position: absolute;
-    /* margin: 28px 70px 0 0 ; */
     height: 100% ;
     width: 100%;
     border-radius: 10px;
-    /* border: 3px solid rgb(255, 0, 38); */
+}
+
+
+@media (max-width: 426px) {
+
+    .main{
+        height: 570px;
+        width: 183%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    .main button{
+        color: white;  
+    }
+    
+    .main-left{
+        margin-left: 1%;
+        margin-top: 20px;
+        height: 80%;
+        width: 50%;
+    }
+
+    .hero-right {
+        margin: 6% 2% 0 0;
+        width: 40% !important;
+    }
+    .hero-right img{
+        position: absolute;
+        height: 90% ;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+    .hero-left {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .hero-left h1 {
+        font-size: 36px;
+        margin-left: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+        line-height: 40px;
+    }
+
+    .hero-left p {
+        font-size:15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .left-bottom {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .left-bottom .hero-left2 {
+        width: 100%;
+    }
+
+    .left-bottom button {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .left-bottom button {
+        position: relative;
+        margin: 10px;
+        font-size: small;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgb(0, 0, 0);            
+        border-radius: 20px;
+        display: inline;
+        width: 280px;
+        height: 120px;
+        margin-top: 15px;
+        margin-left:6%;
+        background-color: #fff1d5;
+      }
+     .left-bottom button img{
+        margin-left: 25%;
+        height: 100px;
+        
+      }
+
+ 
+    
 }
