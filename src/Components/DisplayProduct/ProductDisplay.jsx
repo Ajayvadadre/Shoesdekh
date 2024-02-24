@@ -9,7 +9,9 @@ const ProductDisplay = (props) => {
   const description1 = 'this is some description for the description button'
   const description2 = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis veniam excepturi obcaecati nihil, neque autem nesciunt cum inventore quas culpa."
   const{addItem} = useContext(ShopContext)
+  // console.log(product);
   return (
+    
     <div className='product-display bg-white flex justify-between mt-5'>
         <div className="product-display-left">
         <img src={product.img} alt=""  />

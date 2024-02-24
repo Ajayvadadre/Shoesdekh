@@ -4,12 +4,27 @@ import { ShopContext } from '../Context/Context'
 import BreadCrumbs from '../Components/BreadCrumbs/BreadCrumbs'
 import ProductDisplay from '../Components/DisplayProduct/ProductDisplay'
 import RelatedProducts from '../Components/RelatedProducts/RelatedProducts'
+import accessories_Products from '../Components/Data/AccessoriesProducts'
 
 const Product = () => {
-    const {all_product} = useContext(ShopContext);
+    const {all_product,women_products} = useContext(ShopContext);
+    const{category,ProductId} = useParams();
+    
+    let product = {}
 
-    const{ProductId} = useParams();
-    const product = all_product&&all_product.find((e)=>e.id===Number(ProductId));
+if(category==="men"){
+    product = all_product&&all_product.find((e)=>e.id===Number(ProductId));
+}
+else if (category==="women"){
+   product = women_products&&women_products.find((e)=>e.id===Number(ProductId));
+  
+}
+else if (category==="accessories"){
+    product = accessories_Products&&women_products.find((e)=>e.id===Number(ProductId));
+   
+ }
+
+     
 
     return (
     <div className='bg-white'>

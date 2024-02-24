@@ -1,5 +1,7 @@
 import React, { createContext, useState } from 'react';
 import all_product from '../Components/Data/AllProducts';
+import women_products from '../Components/Data/WomenProducts';
+
 
 const cartValue= ()=>{
 
@@ -12,7 +14,7 @@ const cartValue= ()=>{
 const ShopContextProvider=(props)=>{
   
     const [productCartItems, setProductCartItems] = useState(cartValue())
-
+// -----Total price for the cart 
     const grandTotalAmount=()=>{
         let TotalAmount = 0;
         for(const item in productCartItems){
@@ -25,19 +27,31 @@ const ShopContextProvider=(props)=>{
                 
             }
         }
-        console.log(TotalAmount);
-        return TotalAmount;
+            return TotalAmount;
     }
-    
+// ----------Add item in cart--------------
     const addItem=(itemId)=>{
         setProductCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
 
     }
-
+// ----------Cart item remove----------
     const removeItem=(itemId)=>{
         setProductCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     }
-    const contextValue = {grandTotalAmount,all_product,productCartItems,addItem,removeItem};
+// ------------Cart counter---------------
+    const itemcounter =()=>{
+     let count = 0;
+        for(let item in productCartItems){
+            if(productCartItems[item]>0){
+                count+=productCartItems[item]
+            }
+        }
+        return count
+    }
+
+
+
+    const contextValue = {itemcounter,grandTotalAmount,all_product,productCartItems,addItem,removeItem,women_products};
 
     return(
         <ShopContext.Provider value={contextValue}>
