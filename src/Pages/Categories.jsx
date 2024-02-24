@@ -21,6 +21,7 @@ const Categories = (props) => {
           <div className="product-sort ">
             {/* ----------Mens section------------*/}
 
+<<<<<<< HEAD
             {men_products.map((item, i) => {
               if (props.category === item.category) {
                 categoryFound = true;
@@ -39,6 +40,29 @@ const Categories = (props) => {
               }
             })}
             {/*-------Womens section---------*/}
+=======
+  
+    <div className="sort-categories ">
+        <div className="product-sort ">
+       {      
+         men_products.map((item,i)=>{
+          if(props.category===item.category){
+            categoryFound = true
+            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price} category={item.category}/>
+          }
+          else{
+            return null
+          }})}
+                 {      
+         women_products.map((item,i)=>{
+          if(props.category===item.category){
+            categoryFound = true
+            return <Items key={i} id={item.id} name={item.name} image={item.img} new_price={item.price} category={item.category}/>
+          }
+          else{
+            return null
+          }})}
+>>>>>>> ba7e2edc501c31524250fd29cc6b8f38e6eb3893
 
             {women_products.map((item, i) => {
               if (props.category === item.category) {

@@ -10,12 +10,12 @@ const Dropdown = ({Title,description}) => {
 
   return (
     <div className="dropdown">
-      <div className="dropdown-header" onClick={toggleDescription}>
+      <div className="dropdown-header text-start" onClick={toggleDescription}>
         <span>{Title}</span>
         <span className={`icon ${isDescriptionVisible ? 'rotate' : ''}`}>+</span>
       </div>
       {isDescriptionVisible && (
-        <div className="dropdown-content text-black">
+        <div className="dropdown-content text-black text-start">
           <p>{description}</p>
         </div>
       )}
