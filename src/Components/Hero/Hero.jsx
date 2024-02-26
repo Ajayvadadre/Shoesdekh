@@ -3,6 +3,9 @@ import "../Hero/Hero.css";
 import header from "../Assets/images/Header.jpeg";
 import arrow from "../Assets/images/arrow.svg";
 import smallimg from "../Assets/images/small-img.jpeg";
+import '@radix-ui/themes/styles.css';
+import MyApp from "./RadixTheme";
+
 
 
 const Hero = ({scrollToRef}) => {
@@ -40,7 +43,9 @@ const Hero = ({scrollToRef}) => {
           <img src={header} />
         </div>
       </div>
+      <MyApp/>
     </>
+    
   );
 };
 

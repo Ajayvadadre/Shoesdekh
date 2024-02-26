@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500;600&family=Antonio:wght@300&family=Edu+TAS+Beginner:wght@400;500&family=Montserrat:wght@600&family=Raleway&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500;600&family=Antonio:wght@300&family=Chakra+Petch&family=Edu+TAS+Beginner:wght@400;500&family=Montserrat:wght@600&family=Raleway&family=Rubik&display=swap');
 body{
