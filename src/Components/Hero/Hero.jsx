@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useRef } from "react";
 import "../Hero/Hero.css";
-import header from "../Assets/images/Header.jpeg";
+import Image1 from "../Assets/images/Header.jpeg";
 import arrow from "../Assets/images/arrow.svg";
-import smallimg from "../Assets/images/small-img.jpeg";
+import Image2 from "../Assets/images/small-img.jpeg";
 import '@radix-ui/themes/styles.css';
 import MyApp from "./RadixTheme";
 
@@ -31,19 +31,17 @@ const Hero = ({scrollToRef}) => {
           </div>
           <div className="left-bottom">
             <div className="hero-left2">
-              <img src={smallimg} alt="" />
-            </div>
+                 <img src={Image2} alt="" /></div>
             <button onClick={scrollToRef} id="exploreBtn" type="button">
-              <img src={arrow} alt="" />
+              <img src={arrow} alt="" />  
             </button>
           </div>
         </div>
 
         <div className="hero-right image">
-          <img src={header} />
+          <img src={Image1} />
         </div>
       </div>
-      <MyApp/>
     </>
     
   );

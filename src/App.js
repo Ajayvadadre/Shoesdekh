@@ -29,7 +29,7 @@ function App() {
       </Routes>
       </ScrollProvider>
       </BrowserRouter>
-      <Fotter/>
+      {/* <Fotter/> */}
     </div>
   );
 }

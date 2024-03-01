@@ -14,9 +14,9 @@ const Shop = () => {
   return (
     <div>
       <Hero scrollToRef={scrollToComponent2} />
-      <Popular ref={targetComponentRef} />
+      {/* <Popular ref={targetComponentRef} />
       <Offer/>
-      <New_arrivals/>
+      <New_arrivals/> */}
     </div>
   )
 }
